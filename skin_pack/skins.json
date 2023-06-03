@@ -1,0 +1,336 @@
+{
+  "skins": [
+    {
+      "localization_name": "aiqnynen_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "aiqnynen_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "audyuqsa_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "audyuqsa_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "bearvttv_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "bearvttv_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "bwyjzsyq_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "bwyjzsyq_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "cjpjcnac_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "cjpjcnac_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "cxxzvdzc_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "cxxzvdzc_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "dahgqvvm_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "dahgqvvm_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "dizchseb_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "dizchseb_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "dxoshmsi_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "dxoshmsi_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "dyhryqfn_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "dyhryqfn_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "fhhzcjgz_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "fhhzcjgz_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "fmlxdlru_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "fmlxdlru_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "fnjreniv_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "fnjreniv_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "gqiewszy_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "gqiewszy_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "graksjev_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "graksjev_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "gwfmbqoh_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "gwfmbqoh_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "gwjjtnce_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "gwjjtnce_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "hjfvvpoe_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "hjfvvpoe_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "hnbxkscu_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "hnbxkscu_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "iflvrdxw_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "iflvrdxw_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "irpcaxgb_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "irpcaxgb_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "iwfzyjro_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "iwfzyjro_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "jbkzpsgc_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "jbkzpsgc_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "jghvlxpt_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "jghvlxpt_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "jkahpays_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "jkahpays_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "kkhgcsho_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "kkhgcsho_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "kodpyfhd_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "kodpyfhd_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "lwnwmvhs_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "lwnwmvhs_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "mbywwxpx_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "mbywwxpx_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "mhhksmni_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "mhhksmni_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "nbcjlotx_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "nbcjlotx_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "nqdisrmi_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "nqdisrmi_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "oasyogju_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "oasyogju_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "ohwrvspx_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "ohwrvspx_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "qcupwdzo_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "qcupwdzo_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "qkdyoipz_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "qkdyoipz_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "qkvnague_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "qkvnague_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "qqgzrvod_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "qqgzrvod_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "rhspmtex_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "rhspmtex_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "sjjblgxm_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "sjjblgxm_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "soxbytyg_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "soxbytyg_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "srrvmerr_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "srrvmerr_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "sthfmgow_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "sthfmgow_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "txelgydb_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "txelgydb_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "tyyttkjs_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "tyyttkjs_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "uppevyeh_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "uppevyeh_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "vevwvumw_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "vevwvumw_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "vphhhylp_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "vphhhylp_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "vprhzgah_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "vprhzgah_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "vrnbajgr_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "vrnbajgr_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "whotomni_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "whotomni_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "wvcklsol_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "wvcklsol_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "xkaidrxk_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "xkaidrxk_custom.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "zkzigsks_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "zkzigsks_custom.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "zzjquqbv_custom",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "zzjquqbv_custom.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "TWFMicroCity",
+  "localization_name": "TWFMicroCity"
+}

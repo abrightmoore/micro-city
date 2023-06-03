@@ -1,0 +1,49 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.twf_helipad.life": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+                    "on_entry": [
+                    ],
+                    "transitions": [
+                        {
+                            "launch": "math.round(math.random(1, 1000)) == 1"
+                        },
+                        {
+                            "die": "math.round(math.random(1, 15000)) == 1"
+                        },
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "die": {
+                    "on_entry": [
+                            "/say §6Decommission Helipad!",
+                            "/particle minecraft:large_explosion ~ ~1.5 ~",
+                            "/kill @s"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "launch": {
+                    "on_entry": [
+                            "/say §1Launching Helicopter!",
+                            "/summon twf:helicopter ~ ~0.1 ~",
+                            "/kill @e[type=twf:crane,r=1]"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				}
+            }
+		}
+	}
+}

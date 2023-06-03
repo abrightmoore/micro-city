@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.twf_helicopter.base_pose": {
+			"loop": true
+		},
+		"animation.twf_helicopter.fly": {
+			"loop": true,
+			"animation_length": 0.28,
+			"bones": {
+				"rotor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.28": [0, 359, 0]
+					}
+				},
+				"tail_rotor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.28": [359, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

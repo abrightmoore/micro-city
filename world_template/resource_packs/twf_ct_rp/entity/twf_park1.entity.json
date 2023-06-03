@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf:park1",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/twf_park1"
+			},
+			"geometry": {
+				"default": "geometry.twf_park1"
+			},
+			"render_controllers": ["controller.render.default"],
+            "scripts": {
+            }
+		}
+	}
+}

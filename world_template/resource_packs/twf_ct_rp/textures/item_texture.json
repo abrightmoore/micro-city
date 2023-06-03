@@ -1,0 +1,22 @@
+{
+    "resource_pack_name": "twf_ct_rp", 
+    "texture_data": {
+        "twf_crane_spawn": {
+            "textures": "textures/items/twf_crane_spawn"
+        },
+        "twf_helipad_spawn": {
+            "textures": "textures/items/twf_helipad_spawn"
+        },        
+        "twf_home_spawn": {
+            "textures": "textures/items/twf_home_spawn"
+        },
+        "twf_dozer_spawn": {
+            "textures": "textures/items/twf_dozer_spawn"
+        },
+        "twf_npc_city_spawn": {
+            "textures": "textures/items/twf_npc_city_spawn"
+        }        
+        
+    }, 
+    "texture_name": "atlas.items"
+}

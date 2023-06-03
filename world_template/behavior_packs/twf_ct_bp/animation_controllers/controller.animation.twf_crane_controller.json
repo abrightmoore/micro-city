@@ -1,0 +1,210 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.twf_crane.life": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+                    "on_entry": [
+                        "/fill ~ ~-1 ~ ~ ~-1 ~ minecraft:grass 0 replace twf:blk_000000"
+                    ],
+                    "transitions": [
+                        {
+                            "build": "math.round(math.random(1, 1000)) == 1"
+                        },
+                        {
+                            "finish": "math.round(math.random(1, 5000)) == 1"
+                        },
+                        {
+                            "move": "math.round(math.random(1, 5000)) == 1"
+                        },
+                        {
+                            "expand": "math.round(math.random(1, 5000)) == 1"
+                        },
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "build": {
+                    "on_entry": [
+                            "/fill ~ ~ ~ ~ ~ ~ twf:blk_skyscraper1 0 replace air",
+                            "/tp @s ~ ~1.1 ~"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "finish": {
+                    "on_entry": [
+                            "/say §2Building complete!",
+                            "v.random_value = math.random_integer(1, 8);",
+                            "/particle twf:rainbow_flame ~ ~ ~",
+                            "/summon minecraft:fireworks_rocket"
+                    ],                    
+                    "transitions": [
+                        {
+                            "make_helipad": "v.random_value == 1"
+                        },
+                        {
+                            "die": "true"
+                        }
+                    ]
+				},
+                "die": {
+                    "on_entry": [
+                            "/tp @s ~ -1000 ~",
+                            "/kill @s"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "make_helipad": {
+                    "on_entry": [
+                            "/say §1Making Helipad!",
+                            "/summon twf:helipad ~ ~ ~"
+                    ],                    
+                    "transitions": [
+                        {
+                            "die": "true"
+                        }
+                    ]
+				},                
+                "expand": {
+                    "on_entry": [
+                            "/summon twf:crane ~2 ~ ~",
+                            "/summon twf:crane ~-2 ~ ~",
+                            "/summon twf:crane ~ ~ ~2",
+                            "/summon twf:crane ~ ~ ~-2",
+                            "/kill @s"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move": {
+                    "on_entry": [
+                            "v.random_value = math.random_integer(1, 8);"
+                    ],                    
+                    "transitions": [
+                        {
+                            "move_a": "v.random_value == 1"
+                        },
+                        {
+                            "move_b": "v.random_value == 2"
+                        },
+                        {
+                            "move_c": "v.random_value == 3"
+                        },
+                        {
+                            "move_d": "v.random_value == 4"
+                        },
+                        {
+                            "move_e": "v.random_value == 5"
+                        },
+                        {
+                            "move_f": "v.random_value == 6"
+                        },
+                        {
+                            "move_g": "v.random_value == 7"
+                        },
+                        {
+                            "move_h": "v.random_value == 8"
+                        },
+                        {
+                            "default": "true"
+                        }
+
+                    ]
+				},                
+                "move_a": {
+                    "on_entry": [
+                            "/tp @s ~-1 ~ ~-1"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_b": {
+                    "on_entry": [
+                            "/tp @s ~-1 ~ ~"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_c": {
+                    "on_entry": [
+                            "/tp @s ~-1 ~ ~1"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_d": {
+                    "on_entry": [
+                            "/tp @s ~ ~ ~1"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_e": {
+                    "on_entry": [
+                            "/tp @s ~1 ~ ~1"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_f": {
+                    "on_entry": [
+                            "/tp @s ~1 ~ ~"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_g": {
+                    "on_entry": [
+                            "/tp @s ~1 ~ ~-1"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},                
+                "move_h": {
+                    "on_entry": [
+                            "/tp @s ~ ~ ~-1"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				}
+            }
+		}
+	}
+}

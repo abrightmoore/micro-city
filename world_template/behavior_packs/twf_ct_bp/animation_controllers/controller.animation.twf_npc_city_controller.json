@@ -1,0 +1,61 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.twf_npc_city.life": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+                    "on_entry": [
+                    ],
+                    "transitions": [
+                        {
+                            "home": "math.round(math.random(1, 1000)) == 1"
+                        },
+                        {
+                            "die": "math.round(math.random(1, 5000)) == 1"
+                        },                        
+                        {
+                            "tick_a": "true"
+                        }
+                    ]
+				},
+                "die" : {
+                    "on_entry": [
+                        "/particle twf:rainbow_flame ~ ~ ~",
+                        "/say §4A citizen has passed away!",
+                        "/kill @s"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+                },                
+                "tick_a" : {
+                    "on_entry": [
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+                },
+                "home": {
+                    "on_entry": [
+                        "/particle twf:rainbow_flame ~ ~ ~",
+                        "/say §2A new Home!",
+                        "/summon twf:home ~ ~0.1 ~",
+                        "/kill @s"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ],
+                    "on_exit": [                    
+                    ]
+				}                
+            }
+		}
+	}
+}

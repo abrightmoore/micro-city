@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf:helipad",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/twf_helipad"
+			},
+			"geometry": {
+				"default": "geometry.twf_helipad"
+			},
+			"render_controllers": ["controller.render.default"],
+            "scripts": {
+            },
+            "spawn_egg": {
+                "texture": "twf_helipad_spawn"
+            } 
+		}
+	}
+}

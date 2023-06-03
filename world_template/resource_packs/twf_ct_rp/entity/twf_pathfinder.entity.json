@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf:pathfinder",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/twf_helicopter"
+			},
+			"geometry": {
+				"default": "geometry.twf_helicopter"
+			},
+			"render_controllers": ["controller.render.default"],
+            
+            "animations": {
+                "base_pose": "animation.twf_helicopter.fly"
+            },
+            "scripts": {
+                "animate": [
+                    "base_pose"
+                ]
+            }
+		}
+	}
+}

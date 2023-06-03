@@ -1,0 +1,43 @@
+{
+    "format_version": [
+        1, 
+        16, 
+        0
+    ],
+    "twf:blk_skyscraper1": {
+        "sound": "metal", 
+        "textures": {
+            "down" : "twf_skyscraper1_floor",
+            "side" : "twf_skyscraper1",
+            "up" : "twf_skyscraper1_roof"
+        }
+    },
+    "twf:blk_9e9e9e": {
+        "sound": "metal", 
+        "textures": "twf_9e9e9e"
+    }, 
+    "twf:blk_aabeff": {
+        "sound": "metal", 
+        "textures": "twf_aabeff"
+    }, 
+    "twf:blk_f79974": {
+        "sound": "metal", 
+        "textures": "twf_f79974"
+    }, 
+    "twf:blk_ffc185": {
+        "sound": "metal", 
+        "textures": "twf_ffc185"
+    }, 
+    "twf:blk_fffcaa": {
+        "sound": "metal", 
+        "textures": "twf_fffcaa"
+    }, 
+    "twf:blk_ffffff": {
+        "sound": "metal", 
+        "textures": "twf_ffffff"
+    },
+    "twf:blk_000000": {
+        "sound": "metal", 
+        "textures": "twf_000000"
+    }
+}

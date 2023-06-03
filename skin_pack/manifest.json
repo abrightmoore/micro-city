@@ -1,0 +1,15 @@
+{
+  "header": {
+    "name": "TWFMicroCity",
+    "version": [1, 0, 0],
+    "uuid": "55912266-5769-8a89-c0bb-ac2c8706eb7e"
+  },
+  "modules": [
+    {
+      "version": [1, 0, 0],
+      "type": "skin_pack",
+      "uuid": "1690fe0d-1849-0536-2901-4c8957879187"
+    }
+  ],
+  "format_version": 1
+}

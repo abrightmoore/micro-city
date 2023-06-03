@@ -1,0 +1,123 @@
+{
+    "num_mip_levels": 4, 
+    "padding": 8, 
+    "resource_pack_name": "building_colour.png_RP", 
+    "texture_data": {
+        "twf_skyscraper1": {
+                "textures": [
+                {
+                  "variations": [
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/a",
+                      "weight": 10
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/b",
+                      "weight": 8
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/c",
+                      "weight": 6
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/d",
+                      "weight": 5
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/e",
+                      "weight": 3
+                    },                
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/f",
+                      "weight": 1
+                    }
+                  ]
+            }
+          ]
+        },
+        "twf_skyscraper1_roof": {
+                "textures": [
+                {
+                  "variations": [
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/roof_a",
+                      "weight": 5
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/roof_b",
+                      "weight": 1
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/roof_c",
+                      "weight": 5
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/roof_d",
+                      "weight": 5
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/roof_e",
+                      "weight": 10
+                    },
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/roof_f",
+                      "weight": 5
+                    }
+
+                  ]
+            }
+          ]
+        },
+        "twf_skyscraper1_floor": {
+                "textures": [
+                {
+                  "variations": [
+                    {
+                      "path": "textures/blocks/twf_skyscraper1/floor_a",
+                      "weight": 1
+                    }
+                  ]
+            }
+          ]
+        },        
+        "twf_000000": {
+            "textures": [
+            {
+              "variations": [
+                {
+                  "path": "textures/blocks/twf_000000/a",
+                  "weight": 5
+                },
+                {
+                  "path": "textures/blocks/twf_000000/b",
+                  "weight": 5
+                },
+                {
+                  "path": "textures/blocks/twf_000000/c",
+                  "weight": 1
+                }
+              ]
+        }
+      ]
+        },
+        "twf_9e9e9e": {
+            "textures": "textures/blocks/twf_9e9e9e/a"
+        }, 
+        "twf_aabeff": {
+            "textures": "textures/blocks/twf_aabeff/a"
+        }, 
+        "twf_f79974": {
+            "textures": "textures/blocks/twf_f79974/a"
+        }, 
+        "twf_ffc185": {
+            "textures": "textures/blocks/twf_ffc185/a"
+        }, 
+        "twf_fffcaa": {
+            "textures": "textures/blocks/twf_fffcaa/a"
+        }, 
+        "twf_ffffff": {
+            "textures": "textures/blocks/twf_ffffff/a"
+        }
+    }, 
+    "texture_name": "atlas.terrain"
+}

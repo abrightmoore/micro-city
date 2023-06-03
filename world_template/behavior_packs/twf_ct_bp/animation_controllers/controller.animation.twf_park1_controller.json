@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.twf_park1.life": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+                    "on_entry": [
+                    ],
+                    "transitions": [
+                        {
+                            "cleanup": "math.round(math.random(1, 100)) == 1"
+                        },
+                        {
+                            "die": "math.round(math.random(1, 10000)) == 1"
+                        },
+                        {
+                            "play": "math.round(math.random(1, 5000)) == 1"
+                        },                        
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "play": {
+                    "on_entry": [
+                            "/summon twf:npc_city ~0.1 ~0.1 ~",
+                            "/summon twf:npc_city ~ ~0.1 ~-0.1",
+                            "/particle twf:rainbow_flame ~ ~1.5 ~"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "die": {
+                    "on_entry": [
+                            "/say §4Park abandoned!",
+                            "/particle minecraft:large_explosion ~ ~1.5 ~",
+                            "/summon twf:dozer ~ ~0.1 ~"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				},
+                "cleanup": {
+                    "on_entry": [
+                            "/kill @e[type=twf:helipad,r=1]",
+                            "/kill @e[type=twf:crane,r=2]",
+                            "/kill @e[type=twf:park1,rm=0.1,r=1]",
+                            "/fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:grass 0 replace twf:blk_000000"
+                    ],                    
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ]
+				}
+            }
+		}
+	}
+}

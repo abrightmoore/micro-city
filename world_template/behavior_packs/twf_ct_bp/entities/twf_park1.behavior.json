@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+        "description": {
+			"identifier": "twf:park1",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+            "animations": {
+                "lifecycle": "controller.animation.twf_park1.life"            
+            },
+            "scripts": {
+                    "animate": [
+                        "lifecycle"
+                    ]
+            }            
+		},
+        "component_groups": {
+        },
+
+		"components": {
+              "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                  {
+                    "filters": { "test": "in_water", "subject": "self", "operator": "==", "value": true },
+                    "cause": "water",
+                    "damage_per_tick": 4
+                  }
+                ]
+              },
+            
+            "minecraft:variant": {"value": 0},
+            "minecraft:nameable": {
+              "allow_name_tag_renaming": true,
+              "always_show": true
+            },
+            "minecraft:persistent": {
+            },
+            "minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+            "minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			}
+		},
+        "events": {
+        }
+	}
+}
