@@ -1,11 +1,12 @@
-# 1000-blocks
+# Micro City
 
-This world is also [available on the Minecraft Marketplace](https://www.minecraft.net/en-us/marketplace/pdp?id=82332a02-03b6-4916-a0d1-b95ce0334443).
+This world is also [available on the Minecraft Marketplace]([https://www.minecraft.net/en-us/marketplace/pdp?id=82332a02-03b6-4916-a0d1-b95ce0334443](https://www.minecraft.net/en-us/marketplace/pdp?id=2378dbbb-bdde-4eaf-834b-188fd3875a13)).
 
-Is this the world's largest Complete-the-Monument?
+Is this the world's biggest micro-mega-city?
 
-Collect all 1000 blocks by hunting for geode deposits, or harvesting pieces from friendly Cyootoons, enemy Cyajztics, and natural spawning outcrops. Each block is unique! One thousand new blocks, and a set of exciting new skins. Complete the monument, or build with these amazing new textures. Lucky you!
+Create cities everywhere in this world! Craft and place construction Cranes and watch the fun as they make your high-rise skylines. Defend the place from mob attacks, and you may just welcome in tiny Citizens who will make your new City their permanent home! Equipment includes helicopters, bulldozers, and more!
+- Place and destroy tools
+- Remove excess
+- Craft cities!
 
-Play multiplayer, single player, survival, or in creative mode.
-
-![1000 Blocks monument](https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/7746f5bd-8296-4151-9946-b66c17add4cb/TWF_1000Blocks_Thumbnail.jpg)
+![Micro City](https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/6e592a95-f0f6-4493-a4c1-132a6b0e6608/TWF_microcity_Thumbnail.jpg)
