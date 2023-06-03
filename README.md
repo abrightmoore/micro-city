@@ -1,6 +1,6 @@
 # Micro City
 
-This world is also [available on the Minecraft Marketplace]([https://www.minecraft.net/en-us/marketplace/pdp?id=82332a02-03b6-4916-a0d1-b95ce0334443](https://www.minecraft.net/en-us/marketplace/pdp?id=2378dbbb-bdde-4eaf-834b-188fd3875a13)).
+This world is also [available on the Minecraft Marketplace](https://www.minecraft.net/en-us/marketplace/pdp?id=2378dbbb-bdde-4eaf-834b-188fd3875a13).
 
 Is this the world's biggest micro-mega-city?
 
